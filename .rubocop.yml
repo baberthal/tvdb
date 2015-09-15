@@ -1,0 +1,8 @@
+require: rubocop-rspec
+Documentation:
+  Enabled: false
+AllCops:
+  Include:
+    - '**/config.ru'
+  Exclude:
+    - 'bin/**'
